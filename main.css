@@ -6,14 +6,23 @@ body {
     background:linear-gradient(to bottom, darkslateblue, rgb(28, 24, 56));
     color:white;
     min-height:100vh;
-    
 }
 
-header {
+header h1{
     font-size:50px;
     font-weight:bolder;
     text-align: center;
     align-items: center;
     border: 2px dotted rgb(255, 255, 255);
     border-radius:10px;
+    padding:5px;
+    margin-top:0;
+}
+
+.bio {
+    border-bottom: 5px dotted white;
+}
+
+.skills {
+    border-bottom: 5px dotted white;
 }
