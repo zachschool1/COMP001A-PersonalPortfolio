@@ -2,7 +2,7 @@ body {
     display:flex;
     flex-direction: column;
     align-self:center;
-    margin:5%;
+    margin:10%;
     background:linear-gradient(to bottom, darkslateblue, rgb(28, 24, 56));
     color:white;
     min-height:100vh;
@@ -25,4 +25,26 @@ header h1{
 
 .skills {
     border-bottom: 5px dotted white;
+}
+
+footer {
+    align-self: center;
+}
+h3,h2 {
+    justify-self: center;
+    font-weight:bolder;
+    font-size:x-large;
+}
+
+h2 {
+    border: 2px dotted white;
+    padding: 10px;
+    border-radius: 30%;
+}
+
+.contact-me {
+    border: 2px groove white;
+    padding: 0px 15px;
+    justify-items: center;
+    border-top-left-radius: 50%;
 }
